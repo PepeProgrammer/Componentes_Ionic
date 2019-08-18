@@ -13,6 +13,12 @@ const routes: Routes = [
   { path: 'datetime', loadChildren: './pages/datetime/datetime.module#DatetimePageModule' },
   { path: 'fab', loadChildren: './pages/fab/fab.module#FabPageModule' },
   { path: 'grid', loadChildren: './pages/grid/grid.module#GridPageModule' },
+  { path: 'popover', loadChildren: './pages/popover/popover.module#PopoverPageModule' },
+  { path: 'infinite-scroll', loadChildren: './pages/infinite-scroll/infinite-scroll.module#InfiniteScrollPageModule' },  { path: 'infinite-scroll', loadChildren: './pages/infinite-scroll/infinite-scroll.module#InfiniteScrollPageModule' },
+  { path: 'input', loadChildren: './pages/input/input.module#InputPageModule' },
+  { path: 'list', loadChildren: './pages/list/list.module#ListPageModule' },
+
+
 ];
 
 @NgModule({

@@ -5,13 +5,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { CheckPage } from './check.page';
-import {ComponentsModule} from '../../components/components.module';
+import { PopoverPage } from './popover.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: CheckPage
+    component: PopoverPage
   }
 ];
 
@@ -20,9 +19,8 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes),
-    ComponentsModule
+    RouterModule.forChild(routes)
   ],
-  declarations: [CheckPage]
+  declarations: [PopoverPage]
 })
-export class CheckPageModule {}
+export class PopoverPageModule {}

@@ -5,13 +5,13 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { CheckPage } from './check.page';
-import {ComponentsModule} from '../../components/components.module';
+import { InfiniteScrollPage } from './infinite-scroll.page';
+import {ComponentsModule} from "../../components/components.module";
 
 const routes: Routes = [
   {
     path: '',
-    component: CheckPage
+    component: InfiniteScrollPage
   }
 ];
 
@@ -21,8 +21,8 @@ const routes: Routes = [
     FormsModule,
     IonicModule,
     RouterModule.forChild(routes),
-    ComponentsModule
+      ComponentsModule
   ],
-  declarations: [CheckPage]
+  declarations: [InfiniteScrollPage]
 })
-export class CheckPageModule {}
+export class InfiniteScrollPageModule {}

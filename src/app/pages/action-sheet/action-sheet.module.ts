@@ -6,7 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { ActionSheetPage } from './action-sheet.page';
-import {ComponetsModule} from '../../componets/componets.module';
+import {ComponentsModule} from '../../components/components.module';
 
 const routes: Routes = [
   {
@@ -21,7 +21,7 @@ const routes: Routes = [
     FormsModule,
     IonicModule,
     RouterModule.forChild(routes),
-    ComponetsModule
+    ComponentsModule
   ],
   declarations: [ActionSheetPage]
 })
